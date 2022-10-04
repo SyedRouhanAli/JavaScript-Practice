@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>META Assignment</title>
+    <script>alert("Hello Rouhan would you like to learn some JavaScript today")   // current program prints an alert message before web page appears
+     function toTitleCase(str) {
+  return str.replace(
+    /\w\S*/g,
+    function(txt) {
+      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    }
+  );
+}
+    console.log("Bill Gates Once Said",",'If You Born Poor It's Not Your Fault If You Die Poor It's Your Fault.'" );
+
+    var Quote = 'If you were born poor its not your fault if you stay poor it is your fault.' ;
+    var famous_quote = "Bill Gates once said " + Quote;
+
+    var string="    ROUHAN \n ALI     ";
+        console.log("Before :'"+string+"'");  
+        console.log("After :'"+string.trim()+"'");
+
+    console.log(5+3);  //The following program adds 5 and 3
+    console.log(8-0);
+    console.log(72/9);
+    console.log(4*2);
+
+    var favourite_number = 7;      
+    console.log('My Favourite Number Is :' , favourite_number );   // this program merges variable with message 
+
+    var Friends = ['Saim' ,'Mubin' ,'Shafeeq' ];
+    console.log(Friends);
+
+    var Saim = 'Saim';
+    var Mubin = 'Mubin';
+    var Shafeeq = 'Shafeeq';
+    console.log('Assalam o Alaikum',Saim);
+    console.log('Assalam o Alaikum',Mubin);
+    console.log('Assalam o Alaikum',Shafeeq);
+
+    var Transport = ["Bike", "Car", "Bus" , "Train"];
+    console.log('I would like to own a luxuty ride in a ' , Transport[1]);
+
+    var guest_list = ['Ali' , 'Jamal', 'Aslam','Kamal','Saleem'];
+    console.log(guest_list[0] , 'You are invited to party');
+    console.log(guest_list[2] , 'You are invited to party');
+    console.log(guest_list[4] , 'You are invited to party if your brother Kamal is not available');
+    guest_list.push('Akbar');
+    console.log('You all are invited as we just found a bigger dinner table' , guest_list);
+    guest_list.pop();
+    guest_list.shift();
+    guest_list.pop();
+    guest_list.shift();
+    console.log('Dinner table won’t arrive in time for the dinner so only 2 people ' , guest_list , 'are invited ');
+
+    const Places = ['New York City' , 'Dubai' , 'Thailand' , 'Japan' , 'England'];
+    Places.sort();
+    console.log(Places);
+
+
+
+    console.log(guest_list[0],'You are invited to attent dinner at',Places[2]);
+
+
+
+    const languages_of_Pakistan = ['Urdu','Pashto','Sindhi','Balochi','Punjabi'];
+    console.log(languages_of_Pakistan);
+
+    let object = "this is object";
+    console.log(object);
+
+
+
+    // Done with intentional error 
+
+  //  const color = ['green','red','yellow'];
+//if ( color = 'red' ) {
+  //console.log("You earned 5 points");
+  
+//}else if ( color = 'green' ) {
+  //console.log("you earned 10 points");
+  
+//} else {
+  //console.log("you earned 15 points");
+  
+//}
+
+
+
+    let car_number = 'BEG-123';
+
+console.log(" Is your car number :  'BEG-456' ? I predict False.")
+console.log(car_number == 'BEG-456')
+console.log(" Is your car number :  'BEG-789' ? I predict False.")
+console.log(car_number == 'BEG-789')
+console.log(" Is your car number :  'BEG-890' ? I predict False.")
+console.log(car_number == 'BEG-890')
+console.log(" Is your car number :  'BEG-000' ? I predict False.")
+console.log(car_number == 'BEG-000')
+console.log(" Is your car number :  'BEG-111' ? I predict False.")
+console.log(car_number == 'BEG-111')
+console.log(" Is your car number :  'BEG-123' ? I predict True.")
+console.log(car_number == 'BEG-123')
+
+let bike_number = 'KFC-123';
+console.log("Is Your bike number :'KFC-123' ? I predict true ")
+console.log(bike_number == 'KFC-123')
+
+let train_number = 'xxx-123';
+console.log("Is Your train number :'xxx-123' ? I predict true ")
+console.log(train_number == 'xxx-123')
+
+let plane_number = 'yyy-123';
+console.log("Is Your plane number :'yyy-123' ? I predict true ")
+console.log(plane_number == 'yyy-123')
+
+let ship_number = 'zzz-123';
+console.log("Is Your ship number :'zzz-123' ? I predict true ")
+console.log(ship_number == 'zzz-123')
+
+let upper_case = 'ABC';
+console.log("It is not  'abc' it is ABC ")
+console.log(upper_case=='abc')
+
+
+var age=0;
+if (age < 2){
+  console.log("person is a baby");
+}if (age >= 2 || age < 4) {
+  console.log("person is a toddler")
+  
+} if (age >= 4 || age < 13 ) {
+  console.log("person is a kid")
+  
+} if (age >=13 || age < 20) {
+  console.log("person is a teenager")
+  
+} if (age >= 20 || age < 65 ) {
+  console.log("person is an adult")
+} else {
+  console.log("person is an elder")
+  
+}
+
+/*const favourite_fruits = apple;
+
+if (favourite_fruits = apple) {
+  console.log("i really like apple")
+  
+}else if (favourite_fruits = banana) {
+  console.log("i really like bananas")
+  
+}else if (favourite_fruits = mango) {
+  console.log("i really like mango")
+} else if (favourite_fruits = pear) {
+  console.log("i really like pear")
+  
+} else {
+  console.log("i dont like pear")
+  
+} */
+pizzas = ["fatija", "bbq", "veggie"]
+for (pizza in pizzas){
+    console.log("my favourite pizza is " + pizza);
+}
+
+
+
+animals = ["cat", "dog", "hamster"]
+
+for (animal in animals){
+    console.log(animal + " will make a great pet!")
+}
+let size = prompt('Enter T-shirt size :')
+function t_shirt() {
+  if (size >=0 && size <30 ) {
+    console.log("Thhis is short message " + size);
+  }else if (size >=30 && size <60) {
+    console.log("Thhis is medium message " + size);
+    
+  }else{
+    console.log("Thhis is large message " + size);
+  }
+    
+}
+t_shirt(size)
+
+let city = prompt('Enter city in Pakistan')
+function describe_city(){
+  console.log(city + "is in Pakistan")
+}
+describe_city(city)
+
+
+
+    </script>
+</head>
+<body>
+    <form>
+        Input:
+        <br /><textarea name="input" onchange="(form.output.value=toTitleCase(this.value))" onkeyup="form.output.value=toTitleCase(this.value)"></textarea>
+        <br />Output:
+        <br /><textarea name="output" readonly onclick="select(this)"></textarea>
+      </form>
+      
+</body>
+</html>
